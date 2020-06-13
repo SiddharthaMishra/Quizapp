@@ -3,7 +3,7 @@ node_js:
 - 12.16.1
 deploy:
   provider: gae
-  cleanup : false
+  cleanup: false
   keyfile: client-secret.json
   project: modern-venture-280118
 before_install:
