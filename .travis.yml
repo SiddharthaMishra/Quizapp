@@ -11,5 +11,8 @@ before_install:
   -in client-secret.json.enc -out client-secret.json -d
 
 install:
+- npm cache clean --force
+- rm -rf node_modules package-lock.json
+- npm install -g serve
 - npm install
 - npm run build
