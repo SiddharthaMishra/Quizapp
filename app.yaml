@@ -1,7 +1,4 @@
 runtime: nodejs10
-env: flex
-
-
 
 handlers:
   - url: /static/js/(.*)
