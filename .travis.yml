@@ -13,6 +13,5 @@ before_install:
 install:
 - npm cache clean --force
 - rm -rf node_modules package-lock.json
-- npm install -g serve
 - npm install
-- npm run build
+- npm install serve
